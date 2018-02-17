@@ -1,0 +1,33 @@
+{
+  "name": "eat-tha-burger",
+  "version": "1.0.0",
+  "description": "This is a restaurant app that allows users to keep track of the burgers that they would like to eat until they are able to consume them.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupertromeo/Burger-Logger-App.git"
+  },
+  "keywords": [
+    "restaurant-food-review",
+    "burger-tracker",
+    "burger",
+    "tracker"
+  ],
+  "author": "Manuel Romo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupertromeo/Burger-Logger-App/issues"
+  },
+  "homepage": "https://github.com/rupertromeo/Burger-Logger-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
