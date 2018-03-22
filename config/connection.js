@@ -1,5 +1,7 @@
+// Require the mysql package 
 const mysql = require("mysql");
 
+// Create our mysql server connection
 const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -7,6 +9,7 @@ const connection = mysql.createConnection({
     database: "burgers_db"
 });
 
+// Check the status of our connection
 connection.connect((err) => {
     if(err) {
         console.log("error connecting: " + err.stack0);
